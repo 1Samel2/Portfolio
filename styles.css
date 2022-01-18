@@ -60,6 +60,33 @@
     transform: translate(.3rem, -.5rem) rotate(-45deg);
 } 
 
+.hamburguer span{
+    position: absolute;
+    left: 3rem;
+    height:2rem;
+    width: 6rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #ff3527;
+    color: black;
+    font-family: roboto, serif;
+    opacity: 0;
+}
+
+.hamburguer span::before{
+    content: "";
+    position: absolute;
+    border-right: .5rem solid #ff3527;
+    border-top: .5rem solid transparent;
+    border-left: .5rem solid transparent;
+    border-bottom: .5rem solid transparent;
+    left: -1rem;
+}
+
+.show-menu .hamburguer:hover span{
+    opacity: 1;
+}
 
 header {
     width: 100%;
