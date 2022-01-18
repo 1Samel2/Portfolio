@@ -133,8 +133,14 @@ header {
     background-color: white;
     position: fixed;
     top: 0;
-    right: 0;
+    right: -20rem;
+
+    transition: all 1s;
 }
+
+.show-menu.sidebar{
+    right: 0;
+  }
 
 .menu {
     position: absolute;
