@@ -19,7 +19,9 @@
 <h2 id="overview"> :cloud: Visão geral</h2>
 
 <p align="justify"> 
- #
+ ( ) Nova funcionalidade
+ ( ) Correção de bug
+ ( ) Release
 </p>
 
 <p><img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="-----------------------------------------------------" /></p>

@@ -142,11 +142,6 @@ header {
     opacity: 0;
 }
 
-
-
-
-
-
 .banner a {
     font-family: "Muli", serif;
     background: black;
@@ -164,10 +159,6 @@ header {
     margin-left: 15rem;
     margin-top: -3rem;
 }
-
-
-
-
 
 
 @keyframes moveBanner {
@@ -241,4 +232,10 @@ header {
 
 .social-media i:hover {
     background-color: black;
+}
+
+
+.conhecimentos{
+    display: grid;
+    grid-template-columns: repeat(16,1fr);
 }
