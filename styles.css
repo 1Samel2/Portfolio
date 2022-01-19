@@ -167,6 +167,11 @@ header {
     opacity: 0;
 }
 
+
+
+
+
+
 .banner a{    
     font-family: "Muli", serif;
     background: black;
@@ -178,11 +183,13 @@ header {
     cursor: pointer;
     text-transform: uppercase;
     letter-spacing: .1rem;
-    animation: moveBanner 1s 1.1s forwards;
+    animation: moveBanner 1s 1.3s forwards;
     opacity: 0;
-    
-  
 }
+
+
+  
+
 
 
 @keyframes moveBanner {
