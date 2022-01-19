@@ -183,9 +183,12 @@ header {
     cursor: pointer;
     text-transform: uppercase;
     letter-spacing: .1rem;
-    animation: moveBanner 1s 1.3s forwards;
+    animation: moveBanner 1s 0.9s forwards;
     opacity: 0;
-}
+    display: block;
+    margin-left: 15rem;
+    margin-top: -3rem;
+} 
 
 
   
