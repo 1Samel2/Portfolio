@@ -167,6 +167,24 @@ header {
     opacity: 0;
 }
 
+.banner a{    
+    font-family: "Muli", serif;
+    background: black;
+    background: linear-gradient(to right, #fb5283, #ff3527);
+    padding: 1rem 2.5rem;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    animation: moveBanner 1s 1.1s forwards;
+    opacity: 0;
+    
+  
+}
+
+
 @keyframes moveBanner {
     0% {
         transform: translateY(10rem) rotateY(-30deg);
