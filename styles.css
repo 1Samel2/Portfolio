@@ -272,8 +272,10 @@ header {
     grid-row: 5 / -1;
 }
 
-.sessao-conhecimentos{
-    background-color: #f5f5f5;
+.sessao-conhecimento{
+     background-color:#f5f5f5; 
+     
+     
 }
 
 .sessao-header{
@@ -293,7 +295,8 @@ header {
 .conhecimento-header{
     display: flex;
     align-items: center;
-    color: #4b4b4b;
+     color: #4b4b4b; 
+   
 }
 
 .conhecimento-header{
