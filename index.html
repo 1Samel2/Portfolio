@@ -140,7 +140,7 @@
         <section class="sessao-projetos">
             <div class="sessao-header">
                 <h1>Projetos</h1>
-            </div> 
+            </div>
     </div>
     <div class="projetos">
         <div class="card">
@@ -186,21 +186,48 @@
                 <h1>Contato</h1>
                 <form>
                     <div class="input-group">
-                        <input type="text"  class="field"   placeholder="Nome" id="name">
+                        <input type="text" class="field" placeholder="Nome" id="name">
                     </div>
                     <div class="input-group">
                         <input type="text" class="field" placeholder="E-mail" id="email">
                     </div>
                     <div class="input-group">
-                        <textarea type="text" class="field"  placeholder="Mensagem" id="text"></textarea>
+                        <textarea type="text" class="field" placeholder="Mensagem" id="text"></textarea>
                     </div>
-                    <button type="submit" class="btn-submit" >Enviar</button>
+                    <button type="submit" class="btn-submit">Enviar</button>
                 </form>
             </div>
         </div>
     </section>
+    <section class="sessao-orçamento">
+        <div class="orçamento-wrapper">
+            <h1>Faça um orçamento</h1>
+            <form>
+                <label for="qtde">Quantidade de páginas</label>
+                <input type="number" min="1" name="qtde" id="qtde">
+                <label for="js">Aplicar javaScript</label>
+                <input class="styles" type="checkbox" name="js" id="js">
+                <label>Layout</label>
+                <div class="group-layout">
+                    <div>
+                        <input type="radio" name="layout" id="layout-sim">
+                        <label for="layout-sim">Preciso de um layout</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="layout" id="layout-nao">
+                        <label for="layout-nao">Já tenho um layout</label>
+                    </div>
+                </div>
+                <label for="prazo">Prazo</label>
+                <input type="range" name="prazo" id="prazo">
+                <button class="btn-orçamento" type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
 
     </div>
+
 </body>
 
 <script src="index.js"></script>
