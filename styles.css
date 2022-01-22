@@ -12,6 +12,7 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
+    
 }
 
 
@@ -140,6 +141,7 @@ header {
     outline: none;
     animation: moveBanner 1s 0.9s forwards;
     opacity: 0;
+  
 }
 
 .banner a {
@@ -404,6 +406,7 @@ header {
     border-radius: .5rem;
     border: none;
     box-shadow: 0 .1rem .8rem rgba(0, 0, 0, .4);
+    cursor: pointer;
 
 }
 
@@ -469,8 +472,8 @@ header {
     width: 20rem;
     font-size: 1.5rem;
     font-family: "josefin Slab",serif;
-    border-bottom: 2px dashed #636363;
-    height: 3rem;
+    border-bottom: 2px dashed #818181;
+    height: 2rem;
     outline:none;
     margin: 2rem 0;
 }
@@ -488,3 +491,16 @@ header {
     font-size: 1rem;
 }
 
+.btn-submit{
+    width: 15rem;
+    height: 2.5rem;
+    background: #fb5283;
+    background: linear-gradient(to right, #fb5283, #ff3527);
+    font-family: "Muli", serif;
+    font-size: 1.5rem;
+    color: #eee;
+    border-radius: 1.3rem;
+    border: none;
+    box-shadow: 0 .1rem .8rem rgba(0, 0, 0, .4);
+    cursor: pointer;
+}
