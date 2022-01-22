@@ -472,9 +472,19 @@ header {
     border-bottom: 2px dashed #636363;
     height: 3rem;
     outline:none;
+    margin: 2rem 0;
 }
 
-.field-label{
-    position: absolute;
-    left: 0;
+.input-group textarea{
+    padding-top: 1rem;
+    max-width: 25rem;
+    max-height: 3rem;
 }
+
+
+
+.field:focus ~ label{
+    top: 0;
+    font-size: 1rem;
+}
+
