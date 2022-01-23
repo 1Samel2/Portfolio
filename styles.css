@@ -15,6 +15,9 @@
     
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
 .hamburguer {
 
@@ -183,7 +186,7 @@ header {
     top: 0;
     right: -20rem;
     transition: all 1s;
-    z-index: 99;
+    z-index: 150;
 }
 
 .show-menu .sidebar {
