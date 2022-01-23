@@ -307,7 +307,7 @@ header {
 }
 
 .conhecimento-header h3 {
-    font-family: "josefin Slab", serif;
+    font-family: "Muli", serif;
     font-size: 2rem;
     padding-left: 1rem;
 }
@@ -374,7 +374,7 @@ header {
 }
 
 .card-info h2 {
-    font-family: "Baloo Da 2", serif;
+    font-family: "Muli", serif;
     font-size: 2rem;
     font-weight: 500;
     color: #eee;
@@ -574,4 +574,51 @@ header {
     font-size:1.5rem;
   }
   
+footer{
+    width: 100%;
+    height: 6rem;
+    background: #fb5283;
+    background: linear-gradient(to right, #fb5283, #ff3527);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   
+  .footer-content{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-content p{
+    font-family:"Muli",serif;
+    color: white;
+    font-size: 1.2rem;
+}
+  
+  .social-list a{
+    margin: 0 2rem;
+    color: white;
+    font-size: 1.3rem;
+  }
+  
+  .social-list ul {
+    display: flex;
+  }
+
+  #link-topo{
+    position: fixed;
+    right: 3rem;
+    bottom: 3rem;
+    width: 3rem;
+    height: 3rem;
+    background: #6a3093;
+    background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
+    background: linear-gradient(to left, #a044ff, #6a3093);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: .3rem;
+    box-shadow:  0 0.1rem 0.6rem #00000009;
+  }

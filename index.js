@@ -2,4 +2,4 @@ document.querySelector(".hamburguer").addEventListener("click", () =>
     document.querySelector(".container").classList.toggle("show-menu")
 )
 
-alert("O projeto de portfólio está em desenvolvimento")
+/* alert("O projeto de portfólio está em desenvolvimento") */
