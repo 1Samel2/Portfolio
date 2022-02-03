@@ -12,10 +12,10 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
-    
+
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -144,7 +144,7 @@ header {
     outline: none;
     animation: moveBanner 1s 0.9s forwards;
     opacity: 0;
-  
+
 }
 
 .banner a {
@@ -288,7 +288,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 1.5rem;
+    padding: 3.5rem;
+    background-color: #f5f5f5;
 }
 
 .sessao-header h1 {
@@ -296,6 +297,7 @@ header {
     font-size: 3rem;
     color: black;
     border-bottom: solid 3px #fb5283;
+    background-color: #f5f5f5;
 }
 
 .conhecimento-header {
@@ -335,6 +337,7 @@ header {
 .projetos {
     display: flex;
     justify-content: space-evenly;
+    background-color: #f5f5f5;
 
 }
 
@@ -433,7 +436,7 @@ header {
     width: 60%;
     height: 30rem;
     display: flex;
-    box-shadow: 0 2rem 3rem rgba(0,0,0,0.5);
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.5);
 }
 
 .contato-left {
@@ -444,23 +447,23 @@ header {
 
 .contato-right {
     width: 65%;
-    background-color:#eee;
+    background-color: #eee;
     padding: 1rem 3rem 3rem 3rem;
 
 }
 
-.sessao-contato h1{
+.sessao-contato h1 {
     width: 100%;
     text-align: center;
-    font-family: "Muli",serif;
+    font-family: "Muli", serif;
     color: black;
     font-size: 3rem;
-    font-weight:lighter;
+    font-weight: lighter;
 }
 
-.sessao-contato form{
+.sessao-contato form {
     width: 100%;
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
@@ -469,19 +472,19 @@ header {
     position: relative;
 }
 
-.field{
-    background:transparent;
-    border:none;
+.field {
+    background: transparent;
+    border: none;
     width: 20rem;
     font-size: 1.5rem;
-    font-family: "josefin Slab",serif;
+    font-family: "josefin Slab", serif;
     border-bottom: 2px dashed #818181;
     height: 2rem;
-    outline:none;
+    outline: none;
     margin: 2rem 0;
 }
 
-.input-group textarea{
+.input-group textarea {
     padding-top: 1rem;
     max-width: 25rem;
     max-height: 3rem;
@@ -489,12 +492,12 @@ header {
 
 
 
-.field:focus ~ label{
+.field:focus~label {
     top: 0;
     font-size: 1rem;
 }
 
-.btn-submit{
+.btn-submit {
     width: 15rem;
     height: 2.5rem;
     background: #fb5283;
@@ -509,26 +512,27 @@ header {
 }
 
 
-.sessao-orçamento{
+.sessao-orçamento {
     width: 100%;
     height: 100vh;
-    background: url(./IMG/bg-orcamento.jpg);
+    background: url(./IMG/undraw_work_in_progress_uhmv.svg);
     object-fit: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .orçamento-wrapper{
+}
+
+
+.orçamento-wrapper {
     width: 60%;
     height: 80%;
-    background-color: #ffffff99;
+    background-color: #e7e3e399;
     border-radius: 10px;
     box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
     position: relative;
-  }
-  
-  .sessao-orçamento h1{
+}
+
+.sessao-orçamento h1 {
     position: absolute;
     top: -2.5rem;
     left: 2rem;
@@ -536,48 +540,48 @@ header {
     background: linear-gradient(to right, #fb5283, #ff3527);
     padding: 0 3rem;
     color: #fff;
-    font-family:"Muli",serif;
+    font-family: "Muli", serif;
     font-size: 3rem;
     font-weight: lighter;
     box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
     border-radius: 10px;
-  }
-  
-  .sessao-orçamento form{
+}
+
+.sessao-orçamento form {
     margin: 4rem;
     display: grid;
     grid-template-columns: auto 1fr;
     column-gap: 2rem;
     row-gap: 2rem;
-  }
-  
-  .sessao-orçamento label{
-    font-family:"Muli",serif;
+}
+
+.sessao-orçamento label {
+    font-family: "Muli", serif;
     font-size: 1.5rem;
-  }
-  
-  .sessao-orçamento input[type="number"]{
-    font-family:"Josefin Slab", serif;
+}
+
+.sessao-orçamento input[type="number"] {
+    font-family: "Josefin Slab", serif;
     width: 4rem;
     font-size: 2rem;
     outline: none;
     border: none;
     padding: 0.3rem;
-  }
-  
-  .btn-orçamento{
+}
+
+.btn-orçamento {
     padding: 1rem;
     cursor: pointer;
     grid-column: 2;
     background: #fb5283;
     background: linear-gradient(to right, #fb5283, #ff3527);
-    color:white;
+    color: white;
     border-radius: 10px;
     border: none;
-    font-size:1.5rem;
-  }
-  
-footer{
+    font-size: 1.5rem;
+}
+
+footer {
     width: 100%;
     height: 6rem;
     background: #fb5283;
@@ -585,31 +589,31 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .footer-content{
+}
+
+.footer-content {
     width: 60%;
     display: flex;
     justify-content: space-between;
-  }
-  
-  .footer-content p{
-    font-family:"Muli",serif;
+}
+
+.footer-content p {
+    font-family: "Muli", serif;
     color: white;
     font-size: 1.2rem;
 }
-  
-  .social-list a{
+
+.social-list a {
     margin: 0 2rem;
     color: white;
     font-size: 1.3rem;
-  }
-  
-  .social-list ul {
-    display: flex;
-  }
+}
 
-  #link-topo{
+.social-list ul {
+    display: flex;
+}
+
+#link-topo {
     position: fixed;
     right: 3rem;
     bottom: 3rem;
@@ -623,5 +627,5 @@ footer{
     align-items: center;
     color: #fff;
     border-radius: .3rem;
-    box-shadow:  0 0.1rem 0.6rem #00000009;
-  }
+    box-shadow: 0 0.1rem 0.6rem #00000009;
+}
