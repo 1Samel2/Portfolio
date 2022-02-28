@@ -11,7 +11,7 @@
 <h2 id="about-the-project"> :pencil: Sobre o projeto</h2>
 
 <p align="justify"> 
-# Um portfólio simples para mostrar meus conhecimentos 
+# Um portfólio simples para mostrar meus conhecimentos feito em html, css, javascript
 </p>
 
 <p><img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="-----------------------------------------------------" /></p>
@@ -19,9 +19,9 @@
 <h2 id="overview"> :cloud: Visão geral</h2>
 
 <p align="justify"> 
- ( ) Nova funcionalidade
- ( ) Correção de bug
- ( ) Release
+ (X) Criação do layout
+ (X) Encerramento do projeto
+ 
 </p>
 
 <p><img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="-----------------------------------------------------" /></p>
