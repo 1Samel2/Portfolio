@@ -1,5 +1,5 @@
 <p align="center"> 
-  <img src="./ASSETS/portfolio.png"/>
+ <img src="./ASSETS/Opera Instantâneo_2022-02-28_180028_portfoliodesamuelsantosguedes.vercel.app.png">
 </p>
 <h1 align="center"> Projeto Portfólio </h1>
 <a href="https://portfoliodesamuelsantosguedes.vercel.app/">Link do site</a>
